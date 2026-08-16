@@ -12,10 +12,14 @@ import {
 const photos = [
   {
     src: shot1.url,
+    width: 945,
+    height: 1280,
     alt: "A4 Gents Salon styling stations with yellow cabinets, backlit mirrors and barber chairs in Nalbari, Assam",
   },
   {
     src: shot2.url,
+    width: 942,
+    height: 1280,
     alt: "Row of barber chairs and illuminated product shelves inside A4 Gents Salon",
   },
 ];
@@ -101,6 +105,8 @@ export function Gallery() {
                     <img
                       src={photo.src}
                       alt={photo.alt}
+                      width={photo.width}
+                      height={photo.height}
                       loading="lazy"
                       decoding="async"
                       className="aspect-[4/5] w-full cursor-pointer object-cover transition-transform duration-700 ease-smooth group-hover:scale-[1.03] sm:aspect-[4/3] md:aspect-[3/4]"
@@ -114,7 +120,10 @@ export function Gallery() {
                   </DialogDescription>
                   <img
                     src={photo.src}
-                    alt={photo.alt}
+                    alt=""
+                    width={photo.width}
+                    height={photo.height}
+                    decoding="async"
                     className="animate-fade-in max-h-[85vh] w-full rounded-lg object-contain shadow-2xl"
                   />
                 </DialogContent>
