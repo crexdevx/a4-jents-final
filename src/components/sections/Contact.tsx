@@ -31,7 +31,7 @@ export function Contact() {
 
   const reveal = (i: number) => `reveal ${visible.has(i) ? "reveal-visible" : ""}`;
 
-  const phoneHref = `tel:+91${siteConfig.phone}`;
+  const phoneHref = `tel:+91${siteConfig.phone.replace(/^0/, "")}`;
   const mapEmbedUrl =
     typeof window !== "undefined" &&
     import.meta.env["VITE_LOVABLE_CONNECTOR_GOOGLE_MAPS_BROWSER_KEY"]

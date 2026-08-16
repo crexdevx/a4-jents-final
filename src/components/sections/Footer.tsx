@@ -2,7 +2,7 @@ import { ArrowRight, Clock, Facebook, Instagram, MapPin, Phone, Youtube } from "
 import { siteConfig } from "@/config/site";
 
 export function Footer() {
-  const phoneHref = `tel:+91${siteConfig.phone}`;
+  const phoneHref = `tel:+91${siteConfig.phone.replace(/^0/, "")}`;
 
   return (
     <footer className="border-t border-border bg-surface">
