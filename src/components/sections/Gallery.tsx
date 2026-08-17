@@ -1,6 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import shot1 from "@/assets/salon-interior-1.jpg.asset.json";
-import shot2 from "@/assets/salon-interior-2.jpg.asset.json";
 import {
   Dialog,
   DialogContent,
@@ -11,13 +9,13 @@ import {
 
 const photos = [
   {
-    src: shot1.url,
+    src: "/images/salon-interior-1.jpg",
     width: 945,
     height: 1280,
     alt: "A4 Gents Salon styling stations with yellow cabinets, backlit mirrors and barber chairs in Nalbari, Assam",
   },
   {
-    src: shot2.url,
+    src: "/images/salon-interior-2.jpg",
     width: 942,
     height: 1280,
     alt: "Row of barber chairs and illuminated product shelves inside A4 Gents Salon",
