@@ -1,4 +1,5 @@
 import { ArrowRight, Clock, Facebook, Instagram, Scissors, ShieldCheck, SprayCan, Youtube } from "lucide-react";
+import { siteConfig } from "@/config/site";
 
 const heroArt = "/images/hero-gent.webp";
 const heroArtSmall = "/images/hero-gent-746.webp";
@@ -61,8 +62,11 @@ export function Hero() {
 
           <div className="mt-5 flex items-center gap-2 sm:mt-8 sm:gap-5">
             <a
-              href="#contact"
+              href={`https://wa.me/91${siteConfig.phone.replace(/^0/, "")}?text=${encodeURIComponent("Hi A4 Gents Salon, I would like to book an appointment.")}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-base btn-ink shrink-0 px-4 py-3 text-[0.55rem] sm:text-[0.75rem] lg:text-[0.8125rem]"
+              aria-label="Book your style via WhatsApp"
             >
               Book your style
               <ArrowRight className="h-3 w-3 sm:h-4 sm:w-4" />
