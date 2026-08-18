@@ -73,9 +73,10 @@ export function Header() {
             ))}
             <li className="py-4">
               <a
-                href="#contact"
+                href={bookingHref}
                 onClick={() => setOpen(false)}
                 className="btn-base btn-primary w-full"
+                aria-label="Book appointment via text message"
               >
                 Book Appointment
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
