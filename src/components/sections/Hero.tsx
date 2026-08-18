@@ -1,4 +1,5 @@
 import { ArrowRight, Clock, Facebook, Instagram, Scissors, ShieldCheck, SprayCan, Youtube } from "lucide-react";
+import { siteConfig } from "@/config/site";
 
 const heroArt = "/images/hero-gent.webp";
 const heroArtSmall = "/images/hero-gent-746.webp";
