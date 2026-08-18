@@ -35,7 +35,7 @@ export function Header() {
             </ul>
           </nav>
 
-          <a href="#contact" className="btn-base btn-ink hidden shrink-0 sm:inline-flex">
+          <a href={bookingHref} className="btn-base btn-ink hidden shrink-0 sm:inline-flex" aria-label="Book appointment via text message">
             Book Appointment
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </a>
