@@ -3,6 +3,8 @@ import { Link } from "@tanstack/react-router";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { siteConfig } from "@/config/site";
 
+const bookingHref = `sms:+91${siteConfig.phone.replace(/^0/, "")}?body=${encodeURIComponent("Hi A4 Gents Salon, I would like to book an appointment.")}`;
+
 export function Header() {
   const [open, setOpen] = useState(false);
 
@@ -33,7 +35,7 @@ export function Header() {
             </ul>
           </nav>
 
-          <a href="#contact" className="btn-base btn-ink hidden shrink-0 sm:inline-flex">
+          <a href={bookingHref} className="btn-base btn-ink hidden shrink-0 sm:inline-flex" aria-label="Book appointment via text message">
             Book Appointment
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </a>
@@ -71,9 +73,10 @@ export function Header() {
             ))}
             <li className="py-4">
               <a
-                href="#contact"
+                href={bookingHref}
                 onClick={() => setOpen(false)}
                 className="btn-base btn-primary w-full"
+                aria-label="Book appointment via text message"
               >
                 Book Appointment
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />

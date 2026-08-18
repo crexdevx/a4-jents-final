@@ -136,15 +136,15 @@ export function Contact() {
 
               <div className="mt-6 border-t border-border pt-6">
                 <a
-                  href="#contact"
+                  href={`sms:+91${siteConfig.phone.replace(/^0/, "")}?body=${encodeURIComponent("Hi A4 Gents Salon, I would like to book an appointment.")}`}
                   className="btn-base btn-primary w-full"
-                  aria-label="Book an appointment at A4 Gents Salon (coming soon)"
+                  aria-label="Book an appointment at A4 Gents Salon via text message"
                 >
                   <Calendar className="h-4 w-4" aria-hidden="true" />
                   Book appointment
                 </a>
                 <p className="mt-2 text-center text-xs text-muted-foreground">
-                  Online booking will be enabled soon — call us for instant scheduling.
+                  Tap to send a booking text — we will confirm your slot shortly.
                 </p>
               </div>
             </div>
