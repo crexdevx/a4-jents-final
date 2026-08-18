@@ -3,6 +3,8 @@ import { Link } from "@tanstack/react-router";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { siteConfig } from "@/config/site";
 
+const bookingHref = `sms:+91${siteConfig.phone.replace(/^0/, "")}?body=${encodeURIComponent("Hi A4 Gents Salon, I would like to book an appointment.")}`;
+
 export function Header() {
   const [open, setOpen] = useState(false);
 
