@@ -3,16 +3,16 @@ export const SITE_URL = "https://glam-genius-group.lovable.app";
 
 export const siteConfig = {
   url: SITE_URL,
-  name: "A4 Gents Salon",
-  legalName: "A4 Gents Salon Nalbari",
+  name: "A4 Unisex Salon",
+  legalName: "A4 Unisex Salon Nalbari",
   shortName: "A4",
-  tagline: "Precision grooming for the modern gentleman",
+  tagline: "Premium grooming for men and women",
   description:
-    "A4 Gents Salon — precision haircuts, beard sculpting and classic grooming for the modern gentleman.",
+    "A4 Unisex Salon Nalbari — haircuts, hairstyling, hair spa, keratin treatment and grooming for men and women.",
   googleReviewsUrl:
-    "https://www.google.com/maps/search/?api=1&query=A4%20Gents%20Salon%20Nalbari%20Assam",
+    "https://www.google.com/maps/search/?api=1&query=A4%20Unisex%20Salon%20Nalbari%20Assam",
   googleWriteReviewUrl:
-    "https://www.google.com/maps/search/?api=1&query=A4%20Gents%20Salon%20Nalbari%20Assam",
+    "https://www.google.com/maps/search/?api=1&query=A4%20Unisex%20Salon%20Nalbari%20Assam",
   phone: "08486754335",
   phoneDisplay: "084867 54335",
   address: {
@@ -24,16 +24,19 @@ export const siteConfig = {
     country: "IN",
   },
   fullAddress:
-    "A4 Gents Salon Nalbari, Mahendra Narayan Choudhury Balika Mahavidyalaya, near MNC College, Ward No. 7, Nalbari, Majdia, Assam 781353",
+    "A4 Unisex Salon Nalbari, Mahendra Narayan Choudhury Balika Mahavidyalaya, near MNC College, Ward No. 7, Nalbari, Majdia, Assam 781353",
   hours: "Open · Closes 9 PM",
   googleMapsDirectionsUrl:
-    "https://www.google.com/maps/dir/?api=1&destination=A4%20Gents%20Salon%20Nalbari%20Assam%20781353",
+    "https://www.google.com/maps/dir/?api=1&destination=A4%20Unisex%20Salon%20Nalbari%20Assam%20781353",
   googleMapsEmbedUrl:
-    "https://www.google.com/maps?q=A4%20Gents%20Salon%20Nalbari%20Assam%20781353&output=embed",
+    "https://www.google.com/maps?q=A4%20Unisex%20Salon%20Nalbari%20Assam%20781353&output=embed",
   closingTime: "21:00",
   services: [
     "Men's Haircut",
+    "Women's Haircut",
     "Hairstyling",
+    "Hair Spa",
+    "Keratin Treatment",
     "Facials",
     "Head & Shoulder Massage",
     "Wedding & Event Preparation",

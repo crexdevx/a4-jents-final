@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Scissors, Sparkles, Smile, Hand, Heart } from "lucide-react";
+import { Scissors, Sparkles, Smile, Hand, Heart, Droplets, Wand2 } from "lucide-react";
 
 const services = [
   {
@@ -16,18 +16,30 @@ const services = [
   },
   {
     number: "03",
+    title: "HAIR SPA",
+    description: "Nourishing hair spa treatments for softer, healthier hair.",
+    icon: Droplets,
+  },
+  {
+    number: "04",
+    title: "KERATIN TREATMENT",
+    description: "Smoothening and keratin care for frizz-free, glossy hair.",
+    icon: Wand2,
+  },
+  {
+    number: "05",
     title: "FACIALS",
     description: "Deep cleansing and rejuvenation for clear, healthy skin.",
     icon: Smile,
   },
   {
-    number: "04",
+    number: "06",
     title: "MASSAGE",
     description: "Relaxing head and shoulder massages to melt away stress.",
     icon: Hand,
   },
   {
-    number: "05",
+    number: "07",
     title: "WEDDING & EVENTS",
     description: "Complete grooming packages for your special day.",
     icon: Heart,
@@ -74,7 +86,7 @@ export function Services() {
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-muted-foreground sm:text-xs">
-            Crafted for the modern gentleman
+            Crafted for men and women in Nalbari
           </p>
           <h2
             id="services-heading"

@@ -12,13 +12,13 @@ const photos = [
     src: "/images/salon-interior-1.jpg",
     width: 945,
     height: 1280,
-    alt: "A4 Gents Salon styling stations with yellow cabinets, backlit mirrors and barber chairs in Nalbari, Assam",
+    alt: "A4 Unisex Salon styling stations with yellow cabinets, backlit mirrors and barber chairs in Nalbari, Assam",
   },
   {
     src: "/images/salon-interior-2.jpg",
     width: 942,
     height: 1280,
-    alt: "Row of barber chairs and illuminated product shelves inside A4 Gents Salon",
+    alt: "Row of barber chairs and illuminated product shelves inside A4 Unisex Salon",
   },
 ];
 

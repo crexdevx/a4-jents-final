@@ -73,7 +73,7 @@ export function About() {
             style={{ "--reveal-delay": "80ms" } as React.CSSProperties}
             className={`mt-4 font-display text-3xl font-bold uppercase leading-[1.02] tracking-[-0.02em] text-foreground sm:text-4xl lg:text-5xl ${reveal(1)}`}
           >
-            About A4 Gents Salon
+            About A4 Unisex Salon
           </h2>
 
           <p
@@ -92,15 +92,16 @@ export function About() {
             className={`mt-6 space-y-4 text-muted-foreground ${reveal(3)}`}
           >
             <p className="leading-relaxed">
-              A4 Gents Salon is Nalbari’s destination for precision grooming
-              and confident style. Located in the heart of Nalbari, Assam, our
-              salon brings together skilled barbers, premium products and a
-              relaxed, masculine environment where every detail is designed
-              around you.
+              A4 Unisex Salon is Nalbari’s destination for precision grooming
+              and confident style for men and women. Located in the heart of
+              Nalbari, Assam, our salon brings together skilled stylists,
+              premium products and a relaxed, welcoming environment where every
+              detail is designed around you.
             </p>
             <p className="leading-relaxed">
-              From sharp haircuts and modern hairstyling to rejuvenating
-              facials, relaxing massages and complete wedding or event grooming,
+              From sharp men’s and women’s haircuts and modern hairstyling to
+              hair spa, keratin treatment, rejuvenating facials, relaxing
+              massages and complete wedding or event grooming,
               we tailor every service to your hair, skin and personality. Our
               team combines professional training with genuine attention to
               detail, strict hygiene standards and personalized styling

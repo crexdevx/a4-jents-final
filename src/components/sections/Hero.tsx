@@ -57,12 +57,12 @@ export function Hero() {
           <span aria-hidden="true" className="mt-3 block h-[3px] w-12 bg-foreground sm:w-16" />
 
           <p className="mt-3 text-[0.7rem] leading-snug text-muted-foreground sm:mt-4 sm:text-sm lg:text-base">
-            Premium grooming, haircuts &amp; styling for the modern man.
+            Premium grooming, haircuts &amp; styling for both men and women.
           </p>
 
           <div className="mt-5 flex items-center gap-2 sm:mt-8 sm:gap-5">
             <a
-              href={`sms:+91${siteConfig.phone.replace(/^0/, "")}?body=${encodeURIComponent("Hi A4 Gents Salon, I would like to book an appointment.")}`}
+              href={`sms:+91${siteConfig.phone.replace(/^0/, "")}?body=${encodeURIComponent("Hi A4 Unisex Salon, I would like to book an appointment.")}`}
               className="btn-base btn-ink shrink-0 px-4 py-3 text-[0.55rem] sm:text-[0.75rem] lg:text-[0.8125rem]"
               aria-label="Book your style via text message"
             >
