@@ -6,9 +6,9 @@ export const siteConfig = {
   name: "A4 Unisex Salon",
   legalName: "A4 Unisex Salon Nalbari",
   shortName: "A4",
-  tagline: "Precision grooming for the modern gentleman",
+  tagline: "Premium grooming for men and women",
   description:
-    "A4 Unisex Salon — precision haircuts, beard sculpting and classic grooming for the modern gentleman.",
+    "A4 Unisex Salon Nalbari — haircuts, hairstyling, hair spa, keratin treatment and grooming for men and women.",
   googleReviewsUrl:
     "https://www.google.com/maps/search/?api=1&query=A4%20Unisex%20Salon%20Nalbari%20Assam",
   googleWriteReviewUrl:
@@ -33,7 +33,10 @@ export const siteConfig = {
   closingTime: "21:00",
   services: [
     "Men's Haircut",
+    "Women's Haircut",
     "Hairstyling",
+    "Hair Spa",
+    "Keratin Treatment",
     "Facials",
     "Head & Shoulder Massage",
     "Wedding & Event Preparation",
