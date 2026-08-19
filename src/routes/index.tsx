@@ -70,7 +70,7 @@ export const Route = createFileRoute("/")({
       {
         name: "keywords",
         content:
-          "A4 Unisex Salon Nalbari, unisex salon in Nalbari, best salon in Nalbari, men's salon in Nalbari, women's salon in Nalbari, gents salon in Nalbari, hair salon in Nalbari, hair spa in Nalbari, keratin treatment in Nalbari, men's haircut in Nalbari, women's haircut in Nalbari",
+          "A4 Unisex Salon Nalbari, unisex salon in Nalbari, best unisex salon in Nalbari, best salon in Nalbari, best men's salon in Nalbari, best women's salon in Nalbari, men's salon in Nalbari, women's salon in Nalbari, gents salon in Nalbari, hair salon in Nalbari, hair spa in Nalbari, keratin treatment in Nalbari, men's haircut in Nalbari, women's haircut in Nalbari",
       },
       { property: "og:title", content: title },
       { property: "og:description", content: description },
