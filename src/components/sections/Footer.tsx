@@ -15,7 +15,7 @@ export function Footer() {
               <span className="ml-2 text-[0.65rem] tracking-[0.3em] text-muted-foreground">UNISEX SALON</span>
             </a>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
-              {siteConfig.tagline}. Premium grooming, sharp cuts and confident style for the modern gentleman in Nalbari, Assam.
+              {siteConfig.tagline}. Haircuts, hairstyling, hair spa and keratin care for men and women in Nalbari, Assam.
             </p>
 
             <a
@@ -102,7 +102,7 @@ export function Footer() {
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 text-sm text-muted-foreground sm:flex-row">
           <p>&copy; 2026 {siteConfig.name}. All rights reserved.</p>
           <p>
-            Designed with care for the modern gentleman.
+            Designed with care for men and women.
           </p>
         </div>
       </div>
