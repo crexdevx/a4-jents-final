@@ -16,18 +16,30 @@ const services = [
   },
   {
     number: "03",
+    title: "HAIR SPA",
+    description: "Nourishing hair spa treatments for softer, healthier hair.",
+    icon: Droplets,
+  },
+  {
+    number: "04",
+    title: "KERATIN TREATMENT",
+    description: "Smoothening and keratin care for frizz-free, glossy hair.",
+    icon: Wand2,
+  },
+  {
+    number: "05",
     title: "FACIALS",
     description: "Deep cleansing and rejuvenation for clear, healthy skin.",
     icon: Smile,
   },
   {
-    number: "04",
+    number: "06",
     title: "MASSAGE",
     description: "Relaxing head and shoulder massages to melt away stress.",
     icon: Hand,
   },
   {
-    number: "05",
+    number: "07",
     title: "WEDDING & EVENTS",
     description: "Complete grooming packages for your special day.",
     icon: Heart,
