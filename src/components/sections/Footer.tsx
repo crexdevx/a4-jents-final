@@ -12,7 +12,7 @@ export function Footer() {
           <div className="lg:col-span-5">
             <a href="/" className="inline-block font-display text-2xl font-bold tracking-[0.22em] uppercase text-foreground">
               {siteConfig.shortName}
-              <span className="ml-2 text-[0.65rem] tracking-[0.3em] text-muted-foreground">GENTS SALON</span>
+              <span className="ml-2 text-[0.65rem] tracking-[0.3em] text-muted-foreground">UNISEX SALON</span>
             </a>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
               {siteConfig.tagline}. Premium grooming, sharp cuts and confident style for the modern gentleman in Nalbari, Assam.
@@ -21,7 +21,7 @@ export function Footer() {
             <a
               href="#contact"
               className="btn-base btn-primary mt-8"
-              aria-label="Book an appointment at A4 Gents Salon"
+              aria-label="Book an appointment at A4 Unisex Salon"
             >
               Book Appointment
               <ArrowRight className="h-4 w-4" aria-hidden="true" />

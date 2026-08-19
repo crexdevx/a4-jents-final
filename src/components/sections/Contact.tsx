@@ -71,7 +71,7 @@ export function Contact() {
           >
             <div className="card-editorial p-6 sm:p-8">
               <h3 className="font-display text-lg font-bold uppercase tracking-[0.04em] text-foreground sm:text-xl">
-                A4 Gents Salon Nalbari
+                A4 Unisex Salon Nalbari
               </h3>
               <span aria-hidden="true" className="mt-3 block h-[3px] w-10 bg-primary" />
 
@@ -117,7 +117,7 @@ export function Contact() {
                 <a
                   href={phoneHref}
                   className="btn-base btn-outline"
-                  aria-label="Call A4 Gents Salon now"
+                  aria-label="Call A4 Unisex Salon now"
                 >
                   <Phone className="h-4 w-4" aria-hidden="true" />
                   Call now
@@ -127,7 +127,7 @@ export function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-base btn-ink"
-                  aria-label="Get directions to A4 Gents Salon on Google Maps"
+                  aria-label="Get directions to A4 Unisex Salon on Google Maps"
                 >
                   Get directions
                   <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
@@ -136,9 +136,9 @@ export function Contact() {
 
               <div className="mt-6 border-t border-border pt-6">
                 <a
-                  href={`sms:+91${siteConfig.phone.replace(/^0/, "")}?body=${encodeURIComponent("Hi A4 Gents Salon, I would like to book an appointment.")}`}
+                  href={`sms:+91${siteConfig.phone.replace(/^0/, "")}?body=${encodeURIComponent("Hi A4 Unisex Salon, I would like to book an appointment.")}`}
                   className="btn-base btn-primary w-full"
-                  aria-label="Book an appointment at A4 Gents Salon via text message"
+                  aria-label="Book an appointment at A4 Unisex Salon via text message"
                 >
                   <Calendar className="h-4 w-4" aria-hidden="true" />
                   Book appointment
@@ -157,20 +157,20 @@ export function Contact() {
             style={{ ["--reveal-delay" as string]: "0.1s" }}
           >
             <iframe
-              title="A4 Gents Salon location on Google Maps"
+              title="A4 Unisex Salon location on Google Maps"
               src={mapEmbedUrl}
               className="h-80 w-full border-0 lg:h-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen
-              aria-label="Map showing A4 Gents Salon in Nalbari, Assam"
+              aria-label="Map showing A4 Unisex Salon in Nalbari, Assam"
             />
             <a
               href={siteConfig.googleMapsDirectionsUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="absolute bottom-4 right-4 btn-base btn-ink text-xs"
-              aria-label="Open directions to A4 Gents Salon"
+              aria-label="Open directions to A4 Unisex Salon"
             >
               View on Google Maps
               <ArrowUpRight className="h-3.5 w-3.5" aria-hidden="true" />

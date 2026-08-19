@@ -9,16 +9,16 @@ import { Contact } from "@/components/sections/Contact";
 import { Footer } from "@/components/sections/Footer";
 
 
-const title = "A4 Gents Salon Nalbari | Best Men's Salon & Haircut in Nalbari";
+const title = "A4 Unisex Salon Nalbari | Best Men's Salon & Haircut in Nalbari";
 const description =
-  "A4 Gents Salon in Nalbari, Assam — men's haircuts, hairstyling, facials, massage and wedding grooming near MNC College, Ward No. 7. Call 084867 54335.";
+  "A4 Unisex Salon in Nalbari, Assam — men's haircuts, hairstyling, facials, massage and wedding grooming near MNC College, Ward No. 7. Call 084867 54335.";
 const pageUrl = `${SITE_URL}/`;
 const ogImage = `${SITE_URL}/images/hero-gent-og.jpg`;
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": ["HairSalon", "BeautySalon"],
-  "@id": `${SITE_URL}/#a4-gents-salon-nalbari`,
+  "@id": `${SITE_URL}/#a4-unisex-salon-nalbari`,
   name: siteConfig.legalName,
   alternateName: siteConfig.name,
   description,
@@ -70,7 +70,7 @@ export const Route = createFileRoute("/")({
       {
         name: "keywords",
         content:
-          "A4 Gents Salon Nalbari, gents salon in Nalbari, men's salon in Nalbari, men's haircut in Nalbari, hairstyling Nalbari Assam",
+          "A4 Unisex Salon Nalbari, gents salon in Nalbari, men's salon in Nalbari, men's haircut in Nalbari, hairstyling Nalbari Assam",
       },
       { property: "og:title", content: title },
       { property: "og:description", content: description },

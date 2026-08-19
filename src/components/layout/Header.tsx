@@ -3,7 +3,7 @@ import { Link } from "@tanstack/react-router";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { siteConfig } from "@/config/site";
 
-const bookingHref = `sms:+91${siteConfig.phone.replace(/^0/, "")}?body=${encodeURIComponent("Hi A4 Gents Salon, I would like to book an appointment.")}`;
+const bookingHref = `sms:+91${siteConfig.phone.replace(/^0/, "")}?body=${encodeURIComponent("Hi A4 Unisex Salon, I would like to book an appointment.")}`;
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -16,7 +16,7 @@ export function Header() {
           className="min-w-0 truncate font-display text-xl font-bold tracking-[0.22em] uppercase text-foreground lg:text-2xl"
         >
           {siteConfig.shortName}
-          <span className="ml-2 text-[0.6rem] tracking-[0.3em] text-muted-foreground">GENTS SALON</span>
+          <span className="ml-2 text-[0.6rem] tracking-[0.3em] text-muted-foreground">UNISEX SALON</span>
         </Link>
 
         <div className="flex items-center gap-8">
