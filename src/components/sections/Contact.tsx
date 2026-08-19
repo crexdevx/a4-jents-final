@@ -58,8 +58,8 @@ export function Contact() {
           </h2>
           <span aria-hidden="true" className="mx-auto mt-4 block h-[3px] w-14 bg-primary sm:w-20" />
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
-            Visit our salon in Nalbari, Assam for precision grooming and a relaxed, professional
-            experience.
+            Visit our unisex salon in Nalbari, Assam for precision grooming for men and women and a
+            relaxed, professional experience.
           </p>
         </div>
 
