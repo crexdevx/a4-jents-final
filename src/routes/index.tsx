@@ -13,7 +13,7 @@ const title = "A4 Unisex Salon Nalbari | Best Unisex Salon & Hair Salon";
 const description =
   "A4 Unisex Salon in Nalbari, Assam — men's and women's haircuts, hairstyling, hair spa, keratin treatment, facials and wedding grooming near MNC College, Ward No. 7. Call 084867 54335.";
 const pageUrl = `${SITE_URL}/`;
-const ogImage = `${SITE_URL}/images/hero-gent-og.jpg`;
+const ogImage = `${SITE_URL}/images/hero-unisex-og.jpg`;
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
@@ -90,8 +90,8 @@ export const Route = createFileRoute("/")({
       {
         rel: "preload",
         as: "image",
-        href: "/images/hero-gent.webp",
-        imageSrcSet: "/images/hero-gent-746.webp 746w, /images/hero-gent.webp 1491w",
+        href: "/images/hero-unisex.webp",
+        imageSrcSet: "/images/hero-unisex-746.webp 746w, /images/hero-unisex.webp 1445w",
         imageSizes: "(max-width: 640px) 68vw, (max-width: 1024px) 58vw, 52vw",
         fetchPriority: "high",
       },
