@@ -9,9 +9,9 @@ import { Contact } from "@/components/sections/Contact";
 import { Footer } from "@/components/sections/Footer";
 
 
-const title = "A4 Unisex Salon Nalbari | Best Men's Salon & Haircut in Nalbari";
+const title = "A4 Unisex Salon Nalbari | Best Unisex Salon & Hair Salon";
 const description =
-  "A4 Unisex Salon in Nalbari, Assam — men's haircuts, hairstyling, facials, massage and wedding grooming near MNC College, Ward No. 7. Call 084867 54335.";
+  "A4 Unisex Salon in Nalbari, Assam — men's and women's haircuts, hairstyling, hair spa, keratin treatment, facials and wedding grooming near MNC College, Ward No. 7. Call 084867 54335.";
 const pageUrl = `${SITE_URL}/`;
 const ogImage = `${SITE_URL}/images/hero-gent-og.jpg`;
 
@@ -54,7 +54,7 @@ const localBusinessSchema = {
   })),
   hasOfferCatalog: {
     "@type": "OfferCatalog",
-    name: "Men's grooming services in Nalbari",
+    name: "Unisex hair and grooming services in Nalbari",
     itemListElement: siteConfig.services.map((service) => ({
       "@type": "Offer",
       itemOffered: { "@type": "Service", name: service },
@@ -70,7 +70,7 @@ export const Route = createFileRoute("/")({
       {
         name: "keywords",
         content:
-          "A4 Unisex Salon Nalbari, gents salon in Nalbari, men's salon in Nalbari, men's haircut in Nalbari, hairstyling Nalbari Assam",
+          "A4 Unisex Salon Nalbari, unisex salon in Nalbari, best salon in Nalbari, men's salon in Nalbari, women's salon in Nalbari, gents salon in Nalbari, hair salon in Nalbari, hair spa in Nalbari, keratin treatment in Nalbari, men's haircut in Nalbari, women's haircut in Nalbari",
       },
       { property: "og:title", content: title },
       { property: "og:description", content: description },
