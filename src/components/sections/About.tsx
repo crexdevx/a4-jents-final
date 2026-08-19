@@ -93,14 +93,15 @@ export function About() {
           >
             <p className="leading-relaxed">
               A4 Unisex Salon is Nalbari’s destination for precision grooming
-              and confident style. Located in the heart of Nalbari, Assam, our
-              salon brings together skilled barbers, premium products and a
-              relaxed, masculine environment where every detail is designed
-              around you.
+              and confident style for men and women. Located in the heart of
+              Nalbari, Assam, our salon brings together skilled stylists,
+              premium products and a relaxed, welcoming environment where every
+              detail is designed around you.
             </p>
             <p className="leading-relaxed">
-              From sharp haircuts and modern hairstyling to rejuvenating
-              facials, relaxing massages and complete wedding or event grooming,
+              From sharp men’s and women’s haircuts and modern hairstyling to
+              hair spa, keratin treatment, rejuvenating facials, relaxing
+              massages and complete wedding or event grooming,
               we tailor every service to your hair, skin and personality. Our
               team combines professional training with genuine attention to
               detail, strict hygiene standards and personalized styling
