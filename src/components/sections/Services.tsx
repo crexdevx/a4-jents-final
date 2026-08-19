@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Scissors, Sparkles, Smile, Hand, Heart } from "lucide-react";
+import { Scissors, Sparkles, Smile, Hand, Heart, Droplets, Wand2 } from "lucide-react";
 
 const services = [
   {
@@ -86,7 +86,7 @@ export function Services() {
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-muted-foreground sm:text-xs">
-            Crafted for the modern gentleman
+            Crafted for men and women in Nalbari
           </p>
           <h2
             id="services-heading"
