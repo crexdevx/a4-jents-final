@@ -3,8 +3,6 @@ import { siteConfig } from "@/config/site";
 
 const heroArt = "/images/hero-unisex.webp";
 const heroArtSmall = "/images/hero-unisex-746.webp";
-const heroArtWide = "/images/hero-unisex-wide.webp";
-const heroArtWideSmall = "/images/hero-unisex-wide-746.webp";
 
 const features = [
   { icon: Scissors, title: "Expert Barbers", copy: ["Skilled professionals", "for your best look"] },
@@ -18,24 +16,17 @@ export function Hero() {
     <section className="relative overflow-hidden bg-hero-canvas">
       {/* Artwork — anchored right, sized so the copy column stays clear */}
       <div className="pointer-events-none absolute -top-9 right-[8%] h-[78%] w-[68%] scale-110 sm:top-0 sm:right-[6%] sm:h-[82%] sm:w-[58%] sm:scale-100 lg:right-0 lg:h-[92%] lg:w-[52%]">
-        <picture>
-          <source
-            media="(min-width: 1024px)"
-            srcSet={`${heroArtWideSmall} 746w, ${heroArtWide} 1445w`}
-            sizes="52vw"
-          />
-          <img
-            src={heroArt}
-            srcSet={`${heroArtSmall} 746w, ${heroArt} 1445w`}
-            sizes="(max-width: 640px) 68vw, (max-width: 1024px) 58vw, 52vw"
-            alt="Illustrated portrait of a stylish man and woman at A4 Unisex Salon Nalbari, showcasing modern unisex haircuts and grooming"
-            width={1445}
-            height={1088}
-            fetchPriority="high"
-            decoding="async"
-            className="h-full w-full animate-fade-in object-contain object-center"
-          />
-        </picture>
+        <img
+          src={heroArt}
+          srcSet={`${heroArtSmall} 746w, ${heroArt} 1445w`}
+          sizes="(max-width: 640px) 68vw, (max-width: 1024px) 58vw, 52vw"
+          alt="Illustrated portrait of a stylish man and woman at A4 Unisex Salon Nalbari, showcasing modern unisex haircuts and grooming"
+          width={1445}
+          height={1088}
+          fetchPriority="high"
+          decoding="async"
+          className="h-full w-full animate-fade-in object-contain object-center"
+        />
       </div>
 
       {/* Dot grid, right side above the feature strip */}
